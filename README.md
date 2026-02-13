@@ -56,6 +56,8 @@ Do not assume poster naming matches spreadsheet semantics.
 - theoretical reward decomposition: dividend-related reward increases with training while trade-related reward decreases
 - price sensitivity checks: strong training effect on `P(Buy)`, weak/inconsistent `priceBuy` effect, no robust `priceBuy x training` interaction
 - initial inventory-setpoint checks did not support simple buy-until-K rule
+- Live-condition role split (subject-first vs opponent-second) was analyzed in recent scripts (`260209+`): average `P(Buy)` is driven mostly by the first mover, while the second mover tends to follow.
+- Live-condition asymmetry: overall `P(Buy)` is higher when M1 goes first and lower when M2 goes first.
 
 ## Active Scripts (Current Analysis Suite)
 Primary recent scripts include:
