@@ -1,0 +1,21 @@
+# Large/generated analysis artifacts
+condition_packs*/
+figs/
+paper_figs/
+neuron_validation/
+
+# Binary analysis outputs
+*.mat
+*.fig
+*.png
+*.svg
+*.xlsx
+*.csv
+
+# MATLAB/editor temp files
+*.asv
+*.m~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
