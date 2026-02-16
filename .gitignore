@@ -3,6 +3,11 @@ condition_packs*/
 figs/
 paper_figs/
 neuron_validation/
+RL_results/
+outputs/
+results/
+tmp/
+data/
 
 # Binary analysis outputs
 *.mat
@@ -11,6 +16,18 @@ neuron_validation/
 *.svg
 *.xlsx
 *.csv
+*.pdf
+*.jpg
+*.jpeg
+*.gif
+*.nex
+*.nev
+*.edf
+*.bin
+*.zip
+*.7z
+*.tar
+*.gz
 
 # MATLAB/editor temp files
 *.asv
