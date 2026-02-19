@@ -44,10 +44,10 @@ Example (Windows):
 - role/condition labels drifting across source sheets
 
 ## 6. Recommended First Validation Sequence
-1. `plot_condition_by_date_251204.m`
-2. `plot_choice_distributions_251205.m`
-3. `GLM_behav_only_251210.m`
-4. `RL_basline_and_saline_separated_251217.m`
+1. `d20251204_plot_condition_by_date.m`
+2. `d20251205_plot_choice_distributions.m`
+3. `d20251210_fit_glm_behavior_only.m`
+4. `d20251217_fit_rl_baseline_vs_saline_separate.m`
 5. active strategy suite (listed in `README.md`)
 
 ## 7. AI/Handoff Notes

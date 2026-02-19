@@ -5,31 +5,31 @@ Use only the canonical behavior extractor and keep neural extraction as a separa
 All active scripts are in `scripts/active/`.
 
 ## A. Build/Refresh Packs (when needed)
-1. `scripts/active/extract_and_save_behav_only_by_cond_and_split_251205.m`
-2. `scripts/active/extract_and_save_spike_and_event_by_cond_251118.m` (only when neural/event packs are required)
+1. `scripts/active/d20251205_extract_behavior_condition_packs_with_split.m`
+2. `scripts/active/d20251118_extract_spike_event_condition_packs.m` (only when neural/event packs are required)
 
 ## B. Baseline Behavior and RL
-1. `scripts/active/plot_condition_by_date_251204.m`
-2. `scripts/active/plot_choice_distributions_251205.m`
-3. `scripts/active/GLM_behav_only_251210.m`
-4. `scripts/active/RL_subject_251126.m`
-5. `scripts/active/RL_basline_and_saline_separated_251217.m`
+1. `scripts/active/d20251204_plot_condition_by_date.m`
+2. `scripts/active/d20251205_plot_choice_distributions.m`
+3. `scripts/active/d20251210_fit_glm_behavior_only.m`
+4. `scripts/active/d20251126_fit_rl_by_subject_and_condition.m`
+5. `scripts/active/d20251217_fit_rl_baseline_vs_saline_separate.m`
 
 ## C. Current Strategy/Training Suite
-1. `scripts/active/find_best_strategy_per_market_260209.m`
-2. `scripts/active/optimal_choice_analysis_260212.m`
-3. `scripts/active/pBuy_vs_priceBuy_x_training_live_split_roles_260212.m`
-4. `scripts/active/pBuy_vs_portfolio_size_260212.m`
-5. `scripts/active/pBuy_control_trialNum_marketOrig_260212.m`
-6. `scripts/active/theoretical_tot_rew1_vs_rew2_vs_training_260212.m`
-7. `scripts/active/more_buy_or_less_sell_260213.m`
-8. `scripts/active/repeat_opp_analysis_251214.m`
+1. `scripts/active/d20260209_find_best_strategy_per_market.m`
+2. `scripts/active/d20260212_analyze_optimal_choice.m`
+3. `scripts/active/d20260212_analyze_pbuy_vs_price_over_training_by_live_role.m`
+4. `scripts/active/d20260212_analyze_pbuy_vs_portfolio_size.m`
+5. `scripts/active/d20260212_analyze_pbuy_with_trialnum_market_control.m`
+6. `scripts/active/d20260212_analyze_theoretical_total_reward_over_training.m`
+7. `scripts/active/d20260213_analyze_buy_vs_sell_action_trends.m`
+8. `scripts/active/d20251214_analyze_repeat_and_opponent_effects.m`
 
 ## D. Neural/Peri-Event Branch
-- `scripts/active/GLM_with_neur_251123.m`
-- `scripts/active/Plotting_PSTH_251124.m`
+- `scripts/active/d20251123_fit_glme_with_neural_features.m`
+- `scripts/active/d20251124_plot_psth_multi_event.m`
 - `scripts/active/group_psth_normrange_by_option_CI*.m`
-- `scripts/active/plot_m1_reward_onset_firing_rate_baseline_spread_across_cond_250904.m`
+- `scripts/active/d20250904_plot_m1_reward_onset_firing_rate_baseline_spread_by_condition.m`
 
 ## E. Pre-Run Checklist Per Script
 1. Confirm local input paths

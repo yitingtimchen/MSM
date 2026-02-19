@@ -16,12 +16,12 @@ This project is now organized in a repository-style layout with clear separation
 ## Canonical Branches
 
 1. Behavior branch
-- Extractor: `scripts/active/extract_and_save_behav_only_by_cond_and_split_251205.m`
+- Extractor: `scripts/active/d20251205_extract_behavior_condition_packs_with_split.m`
 - Input: `C:\Users\plattlab\MSM\data\tooling\MATLAB_Copy\dataTabFULL.xlsx`
 - Output: `C:\Users\plattlab\MSM\outputs_local\condition_packs_behavior_only_from_dataTabFULL`
 
 2. Neural branch
-- Extractor: `scripts/active/extract_and_save_spike_and_event_by_cond_251118.m`
+- Extractor: `scripts/active/d20251118_extract_spike_event_condition_packs.m`
 - Output: `C:\Users\plattlab\MSM\outputs_local\condition_packs_251118`
 
 ## Quick Start
